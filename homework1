@@ -1,0 +1,8 @@
+import numpy as np
+print(np.__version__)
+data1=np.arange(21)
+print(data1)
+data2=np.arange(2,21,2)
+print(data2)
+data3=np.arange(3,21,3)
+print(data3)
