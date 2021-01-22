@@ -10,9 +10,9 @@ print(g)
 #2
 #g=20log10(V/V0)
 #V=10**(g/20)*V0
-#V2/V1=10**((G2/20-G1/20)*V0)
+#V2/V1=10**((G2/20-G1/20))
 #V0=20
 G1=30
 G2=50
-answer=np.power(10,(G2-G1)/10)
+answer=np.power(10,(G2-G1)/20)
 print(answer)
